@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Desi Cow Milk - Pure A2 Milk</title>
+    <meta name="description" content="Learn about Desi Cow Milk, our mission, vision, traditional cow care, and how we deliver fresh A2 milk to your family.">
+    
+    <!-- CSS link -->
+    <link rel="stylesheet" href="about-style.css">
+</head>
+<body>
+
+    <!-- HEADER / NAVBAR -->
+    <header class="header">
+        <div class="container navbar">
+            <div class="logo">
+                Desi <span>Cow Milk</span>
+            </div>
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html">Home</a>
+                <a href="about.html" class="active">About Us</a>
+                <a href="index.html#a2milk">A2Milk</a>
+                <a href="index.html#products">Products</a>
+                <a href="index.html#quality">Quality</a>
+                <a href="index.html#contact">Contact</a>
+            </nav>
+            <div class="menu-btn" id="menuBtn">☰</div>
+        </div>
+    </header>
+
+    <!-- PAGE HERO BANNER -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1>About <span>Desi Cow Milk</span></h1>
+                <p>Nurturing health and tradition through 100% pure, unadulterated Desi Cow A2 Milk.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- OUR STORY SECTION -->
+    <section class="section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img-box">
+                    <img src="https://images.unsplash.com/photo-1570042707223-23a54d5d36e2?auto=format&fit=crop&w=1000&q=85" alt="Desi Cows Grazing">
+                </div>
+                <div class="about-text-box">
+                    <span class="sub-title">OUR STORY</span>
+                    <h2>Rooted in Purity & Tradition</h2>
+                    <p>At <strong>Desi Cow Milk</strong>, our journey began with a simple vision: bringing back the authentic, nutrient-rich dairy experience that our ancestors cherished. In today’s fast-paced world, finding pure and chemical-free milk can be a challenge.</p>
+                    <p>We bridge this gap by sourcing fresh A2 milk directly from indigenous desi cows (Gir, Kankrej, Sahiwal) that are nurtured with utmost love, natural fodder, and standard ethical care.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MISSION & VISION SECTION -->
+    <section class="section mission-section">
+        <div class="container">
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Our Mission</h3>
+                    <p>To provide every household with wholesome, pure, and fresh A2 cow milk while supporting sustainable farming and traditional dairy methods.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">👁️</div>
+                    <h3>Our Vision</h3>
+                    <p>To become a trusted household name for premium A2 dairy products, raising awareness about the health benefits of indigenous Indian cow milk.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🌱</div>
+                    <h3>Ethical Farming</h3>
+                    <p>We treat our cows like family. They graze freely, consume grass and organic feeds, and are milked using gentle, traditional methods.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY A2 MILK / PROCESS SECTION -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>How We Ensure Quality</h2>
+                <p>From our farms to your doorstep, every single drop undergoes strict quality control.</p>
+            </div>
+
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-num">01</div>
+                    <h3>Healthy Cows</h3>
+                    <p>Our cows are fed natural green grass and ayurvedic herbs to keep them healthy without antibiotics or hormone injections.</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">02</div>
+                    <h3>Hygienic Milking</h3>
+                    <p>Milking is done in clean environments adhering to strict hygiene standards to keep the milk natural and untouched.</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">03</div>
+                    <h3>Chilling & Testing</h3>
+                    <p>The milk is immediately chilled to 4°C to preserve freshness and natural nutrients without processing or preservatives.</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">04</div>
+                    <h3>Fresh Delivery</h3>
+                    <p>Delivered fresh to your doorstep within hours of milking so you get maximum taste and natural nutrition.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CORE VALUES SECTION -->
+    <section class="section values-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Core Values</h2>
+                <p>The principles that drive our daily commitment to excellence.</p>
+            </div>
+
+            <div class="values-grid">
+                <div class="value-item">
+                    <h3>✨ 100% Purity</h3>
+                    <p>No added water, preservatives, artificial flavors, or harmful chemicals.</p>
+                </div>
+                <div class="value-item">
+                    <h3>🤝 Customer Trust</h3>
+                    <p>Building long-term relationships through transparency and consistent quality.</p>
+                </div>
+                <div class="value-item">
+                    <h3>💚 Cow Welfare</h3>
+                    <p>Prioritizing the health, safety, and comfort of our desi cows above all else.</p>
+                </div>
+                <div class="value-item">
+                    <h3>🌿 Sustainability</h3>
+                    <p>Promoting eco-friendly farming techniques and natural dairy ecosystem.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta">
+        <div class="container">
+            <h2>Experience the Difference Today</h2>
+            <p>Switch to pure Desi Cow A2 Milk and give your family the gift of health and natural goodness.</p>
+            <a href="index.html#contact" class="btn btn-gold">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <h3>Desi Cow Milk</h3>
+                    <p>Fresh desi cow milk and A2Milk focused on quality, freshness and traditional dairy goodness.</p>
+                </div>
+                <div>
+                    <h3>Quick Links</h3>
+                    <div class="footer-links">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About Us</a>
+                        <a href="index.html#a2milk">A2Milk</a>
+                        <a href="index.html#products">Products</a>
+                    </div>
+                </div>
+                <div>
+                    <h3>Contact</h3>
+                    <div class="footer-links">
+                        <a href="tel:+919879055287">+91 9879055287</a>
+                        <a href="mailto:giracowbank@gmail.com">giracowbank@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                © 2026 Desi Cow Milk. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCROLL TOP BUTTON -->
+    <button id="scrollTop">↑</button>
+
+    <!-- JavaScript link -->
+    <script src="about-script.js"></script>
+</body>
+</html>

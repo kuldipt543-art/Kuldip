@@ -1,0 +1,443 @@
+/* ================================
+   GLOBAL STYLES
+================================ */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#fffdf8;
+    color:#26351c;
+    line-height:1.6;
+}
+
+a{
+    text-decoration:none;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.section{
+    padding:80px 0;
+}
+
+.section-title{
+    text-align:center;
+    max-width:750px;
+    margin:0 auto 50px;
+}
+
+.section-title h2{
+    font-size:40px;
+    color:#304720;
+    margin-bottom:12px;
+}
+
+.section-title p{
+    color:#656a5c;
+    font-size:17px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 27px;
+    background:#4d702d;
+    color:#ffffff;
+    border-radius:7px;
+    font-weight:bold;
+    transition:0.3s;
+    border:none;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:#36531e;
+    transform:translateY(-2px);
+}
+
+.btn-gold{
+    background:#bd7d27;
+}
+
+.btn-gold:hover{
+    background:#99631c;
+}
+
+/* ================================
+   HEADER & NAVBAR
+================================ */
+.header{
+    width:100%;
+    background:#ffffff;
+    position:sticky;
+    top:0;
+    z-index:999;
+    box-shadow:0 2px 15px rgba(0,0,0,0.08);
+}
+
+.navbar{
+    height:78px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:800;
+    color:#4d702d;
+}
+
+.logo span{
+    color:#bd7d27;
+}
+
+.nav-menu{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
+
+.nav-menu a{
+    color:#293821;
+    font-size:16px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active{
+    color:#bd7d27;
+}
+
+.menu-btn{
+    display:none;
+    font-size:28px;
+    cursor:pointer;
+    color:#4d702d;
+}
+
+/* ================================
+   PAGE HERO BANNER
+================================ */
+.page-hero{
+    background: linear-gradient(rgba(48, 71, 32, 0.85), rgba(48, 71, 32, 0.85)),
+                url("https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=1800&q=85");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.page-hero-content h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.page-hero-content h1 span{
+    color: #f1b357;
+}
+
+.page-hero-content p{
+    font-size: 20px;
+    max-width: 650px;
+    margin: 0 auto;
+    color: #e1e8d9;
+}
+
+/* ================================
+   ABOUT STORY SECTION
+================================ */
+.about-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.about-img-box img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.sub-title{
+    display: inline-block;
+    color: #bd7d27;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.about-text-box h2{
+    font-size: 38px;
+    color: #304720;
+    margin-bottom: 20px;
+}
+
+.about-text-box p{
+    color: #555c4d;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+/* ================================
+   MISSION & VISION SECTION
+================================ */
+.mission-section{
+    background: #f2f6e9;
+}
+
+.cards-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card{
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+}
+
+.card-icon{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.card h3{
+    font-size: 24px;
+    color: #304720;
+    margin-bottom: 15px;
+}
+
+.card p{
+    color: #656a5c;
+}
+
+/* ================================
+   PROCESS STEPS
+================================ */
+.process-steps{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.step{
+    background: #ffffff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    border: 1px solid #e6eadc;
+    position: relative;
+    text-align: center;
+}
+
+.step-num{
+    font-size: 32px;
+    font-weight: 800;
+    color: #bd7d27;
+    margin-bottom: 10px;
+}
+
+.step h3{
+    font-size: 20px;
+    color: #304720;
+    margin-bottom: 10px;
+}
+
+.step p{
+    color: #656a5c;
+    font-size: 15px;
+}
+
+/* ================================
+   VALUES SECTION
+================================ */
+.values-section{
+    background: #fff6e6;
+}
+
+.values-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.value-item{
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+}
+
+.value-item h3{
+    font-size: 22px;
+    color: #8c5d1d;
+    margin-bottom: 10px;
+}
+
+.value-item p{
+    color: #605b50;
+}
+
+/* ================================
+   CTA & FOOTER
+================================ */
+.cta{
+    background:#304720;
+    padding:80px 20px;
+    text-align:center;
+    color:#ffffff;
+}
+
+.cta h2{
+    font-size:43px;
+    margin-bottom:15px;
+}
+
+.cta p{
+    max-width:700px;
+    margin:0 auto 30px;
+    font-size:18px;
+    color:#e1e8d9;
+}
+
+.footer{
+    background:#1d2915;
+    color:#ffffff;
+    padding:40px 0 20px;
+}
+
+.footer-content{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr;
+    gap:40px;
+}
+
+.footer h3{
+    font-size:23px;
+    margin-bottom:15px;
+}
+
+.footer p{
+    color:#d0d8c7;
+}
+
+.footer-links{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+
+.footer-links a{
+    color:#d0d8c7;
+}
+
+.footer-links a:hover{
+    color:#ffffff;
+}
+
+.copyright{
+    text-align:center;
+    border-top:1px solid rgba(255,255,255,0.12);
+    margin-top:30px;
+    padding-top:20px;
+    color:#bfc8b5;
+}
+
+#scrollTop{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    width:45px;
+    height:45px;
+    border:none;
+    border-radius:50%;
+    background:#bd7d27;
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+    display:none;
+    z-index:999;
+}
+
+/* ================================
+   RESPONSIVE
+================================ */
+@media(max-width:900px){
+    .nav-menu{
+        position:absolute;
+        top:78px;
+        left:0;
+        width:100%;
+        background:#ffffff;
+        flex-direction:column;
+        padding:25px;
+        gap:18px;
+        display:none;
+        box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    }
+
+    .nav-menu.active{
+        display:flex;
+    }
+
+    .menu-btn{
+        display:block;
+    }
+
+    .about-grid,
+    .cards-grid,
+    .values-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .process-steps{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-content{
+        grid-template-columns:1fr;
+    }
+}
+
+@media(max-width:550px){
+    .page-hero-content h1{
+        font-size: 36px;
+    }
+
+    .process-steps{
+        grid-template-columns: 1fr;
+    }
+
+    .section-title h2,
+    .about-text-box h2,
+    .cta h2{
+        font-size: 30px;
+    }
+}
