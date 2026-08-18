@@ -34,10 +34,17 @@ img{
 /* ================================
    HEADER
 ================================ */
-.logo-area img {
-    width: 180px;
-    height: 50px;
-    display:flex;
+.logo img {
+    height: 58px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 50%; /* કાળા ચોરસ બોક્સને ગોળ બનાવશે */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.05);
 }
 
 .header{
