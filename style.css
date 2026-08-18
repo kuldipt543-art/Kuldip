@@ -2,6 +2,13 @@
    GLOBAL CSS
 ================================ */
 
+.logo img {
+    height: 55px; /* 20x*/
+    width: auto;
+    display: block;
+    object-fit: contain;
+}
+
 *{
     margin:0;
     padding:0;
