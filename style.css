@@ -36,8 +36,8 @@ img{
 ================================ */
 .logo img {
     height: 55px; /*20z */
-    width: auto;
-    display: block;
+    width: 30%;
+    display:flex;
     object-fit: contain;
 }
 
